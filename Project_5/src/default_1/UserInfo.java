@@ -7,7 +7,7 @@ public class UserInfo {
 	public static void main(String[] args) {
 		
 // WAP to take a string from user Also take his age and city and print it in a sentence as a output
-//		eg. Hello my name is Tejas. I am 21 years old and I belong to Pune.
+//		Eg. Hello my name is Tejas. I am 21 years old and I belong to Pune.
 
 		Scanner myObj=new Scanner(System.in);
 		System.out.println("Enter Your Name:- ");
