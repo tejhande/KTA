@@ -12,7 +12,7 @@ public class Circumference {
 				double radius = myObj.nextDouble();
 				double circumference = 2*(22/7)*radius;
 				System.out.println("Circumference of the circle having "+radius+" is "+ circumference);
-
+				myObj.close();
 	}
 
 }

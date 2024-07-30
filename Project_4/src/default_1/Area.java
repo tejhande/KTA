@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Area {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 //		int side = 20;
 //		System.out.println("Area Of Sqaure:- "+side*side);
 		
@@ -18,7 +18,7 @@ public class Area {
 		System.out.println("Area Of Rectangle:- "+area);
 		
 		
-		
+		sc.close();
 		
 	}
 

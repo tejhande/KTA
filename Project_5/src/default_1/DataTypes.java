@@ -1,7 +1,5 @@
 package default_1;
 
-import java.util.Scanner;
-
 public class DataTypes {
 
 	public static void main(String[] args) {

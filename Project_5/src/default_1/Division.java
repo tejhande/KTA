@@ -17,6 +17,8 @@ public class Division {
 			double double_var2 = myObj.nextDouble();
 			double Division = double_var1 / double_var2 ;
 			System.out.println("Division of the double values :- "+ Division);
+
+			myObj.close();
 	}
 
 }

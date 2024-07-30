@@ -18,7 +18,7 @@ public class UserInfo {
 		String City = myObj.next();
 		
 		System.out.println("Hello My Name is "+Name+". "+ "I am "+Age+ " years old and I belong to "+ City+ ".");
-
+		 myObj.close();
 	}
 
 }

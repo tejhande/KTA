@@ -16,6 +16,8 @@ public class Multipliction {
 		float float_var2 = myObj.nextFloat();
 		float multiplication = float_var1 * float_var2 ;
 		System.out.println("Multiplication of the float values :- "+ multiplication);
+
+		myObj.close();
 	}
 
 }

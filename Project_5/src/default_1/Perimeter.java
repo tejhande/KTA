@@ -14,6 +14,7 @@ public class Perimeter {
 		double Perimeter = 4*side;
 		System.out.println("Perimeter of the Square having "+side+" is "+ Perimeter);
 
+		myObj.close();
 	}
 
 }
