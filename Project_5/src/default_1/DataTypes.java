@@ -35,8 +35,6 @@ public class DataTypes {
 		System.out.println("The value of String is "+name);
 			
 				
-		
-
-	}
+			}
 	
 }
