@@ -12,7 +12,7 @@ public class Greater_Number {
 		System.out.println("Enter 2nd No.:- ");
 		double b = myObj.nextDouble();			// taking input
 		
-		if (a>b)								// Appling Condition
+		if (a>b)								// Applying Condition
 			{	
 				System.out.println(a+" is greater than "+b);
 			}

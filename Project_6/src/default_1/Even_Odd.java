@@ -10,7 +10,7 @@ public class Even_Odd {
 		System.out.println("Enter No.:- ");
 		double a = myObj.nextDouble();			// taking input
 		double b = a%2;
-		if (b==0)								// Appling Condition
+		if (b==0)								// Applying Condition
 			{	
 				System.out.println(a+" is Even");
 			}

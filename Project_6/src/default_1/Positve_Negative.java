@@ -9,11 +9,11 @@ public class Positve_Negative {
 		
 		System.out.println("Enter No.:- ");
 		double a = myObj.nextDouble();			// taking input
-		if (a>0)								// Appling Condition
+		if (a>0)								// Applying Condition
 		{	
 			System.out.println(a+" is Positive");
 		}
-		else if (a<0)								// Appling Condition
+		else if (a<0)								// Applying Condition
 			{	
 				System.out.println(a+" is Negative");
 			}
