@@ -1,4 +1,4 @@
-package default_1; 
+package default_1;
 
 import java.util.Scanner;
 
@@ -10,10 +10,9 @@ public class While_Loop_Odd_Numbers_Inputs {
 		int a = myObj.nextInt();
 		System.out.println("Enter Second No.:- ");
 		int b = myObj.nextInt();
-		
-		while(a<=b)
-		{
-			if (a%2 ==1)
+
+		while (a <= b) {
+			if (a % 2 == 1)
 				System.out.println(a);
 			a++;
 		}

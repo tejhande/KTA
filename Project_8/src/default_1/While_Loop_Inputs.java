@@ -10,10 +10,9 @@ public class While_Loop_Inputs {
 		int a = myObj.nextInt();
 		System.out.println("Enter Second No.:- ");
 		int b = myObj.nextInt();
-		int i = a; 
-		
-		while(i<=b)
-		{
+		int i = a;
+
+		while (i <= b) {
 			System.out.println(i);
 			i++;
 		}
