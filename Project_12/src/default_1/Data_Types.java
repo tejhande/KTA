@@ -16,7 +16,7 @@ public class Data_Types {
 		float float_var = 10.50f; // variable of float 
 		System.out.println("The value of float is "+float_var);
 
-		long long_var = 454875; // variable of long 
+		long long_var = 454875l; // variable of long 
 		System.out.println("The value of long is "+long_var);
 
 		double double_var = 244.456; // variable of double 
