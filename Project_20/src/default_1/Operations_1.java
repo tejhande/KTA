@@ -5,7 +5,7 @@ public class Operations_1 {
 
 	
 	public static void main(String[] args) {
-	
+
 		Operations o1 = new Operations();
 		o1.add();
 		o1.add(10.2f, 15.4f);
