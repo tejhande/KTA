@@ -1,4 +1,4 @@
-package default_1;
+package e_Inheritance;
 
 public class Child extends Parent {	//extended Parent class
 

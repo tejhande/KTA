@@ -1,4 +1,4 @@
-package default_3;
+package e_Inheritance;
 
 public class Dog extends Animal {
 

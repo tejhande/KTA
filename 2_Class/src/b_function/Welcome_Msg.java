@@ -1,4 +1,4 @@
-package default_1;
+package b_function;
 
 import java.util.Scanner;
 

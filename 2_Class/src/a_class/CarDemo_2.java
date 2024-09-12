@@ -1,4 +1,4 @@
-package default_1;
+package a_class;
 
 class Car{
 	int car_Id;
@@ -19,7 +19,7 @@ class Car{
 	}
 	
 }
-public class CarDemo {
+public class CarDemo_2 {
 
 	public static void main(String[] args) {
 		

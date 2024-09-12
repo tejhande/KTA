@@ -1,10 +1,10 @@
-package default_1;
+package e_Inheritance;
 
-public class Jeep extends Car {
+public class Jeep_1 extends Car_1 {
 
 	public static void main(String[] args) {
 	
-		Jeep jeep = new Jeep();  // created obj for Jeep class
+		Jeep_1 jeep = new Jeep_1();  // created obj for Jeep class
 		System.out.println("Car Speed:- "+ jeep.speed);
 		jeep.start();
 	}

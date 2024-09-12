@@ -1,4 +1,4 @@
-package default_2;
+package b_Access;
 
 public class Access_From_1 {
 

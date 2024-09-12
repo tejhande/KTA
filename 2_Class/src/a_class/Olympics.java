@@ -1,4 +1,4 @@
-package default_1;
+package a_class;
 
 public class Olympics {
     // Variables

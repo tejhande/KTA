@@ -1,4 +1,4 @@
-package default_1;
+package z_Practice;
 
 class Students{
 	int adNo;

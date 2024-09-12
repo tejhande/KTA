@@ -1,4 +1,4 @@
-package default_1;
+package a_TryCatch;
 
 import java.util.Scanner;
 

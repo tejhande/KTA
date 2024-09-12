@@ -1,4 +1,4 @@
-package default_2;
+package e_Inheritance;
 
 public class Employee {
 

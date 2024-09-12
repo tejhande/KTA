@@ -1,6 +1,6 @@
-package default_1;
+package e_Inheritance;
 
-public class Car extends Vehicle { // extended car class to vehicle
+public class Car_1 extends Vehicle_1 { // extended car class to vehicle
 
 	int speed = 100;     // overriding speed
 	

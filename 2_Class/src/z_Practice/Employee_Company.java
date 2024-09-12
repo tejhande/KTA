@@ -6,7 +6,7 @@ Call the static variable using class name
 Also call the static method using class name
 */
 
-package default_1;
+package z_Practice;
 
 class Employee{
 	int eId;

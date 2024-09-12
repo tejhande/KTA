@@ -1,4 +1,4 @@
-package default_1;
+package a_class;
 
 class Mobile {
 	String model;

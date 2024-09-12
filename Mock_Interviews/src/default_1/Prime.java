@@ -1,6 +1,6 @@
 package default_1;
 
-public class demo1 {
+public class Prime {
 
 	public static boolean isprime(int number) {
 		if (number <=1 ) {

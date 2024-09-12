@@ -1,6 +1,6 @@
-package default_1;
+package e_Inheritance;
 
-public class Vehicle {
+public class Vehicle_1 {
 
 	double speed1 = Math.random()*100; 		// getting random Speed
 	final double speed = Math.round(speed1);

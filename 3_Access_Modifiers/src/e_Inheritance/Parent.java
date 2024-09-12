@@ -1,4 +1,4 @@
-package default_1;
+package e_Inheritance;
 
 public class Parent extends Grandparent { //extended Grandparent class
 
