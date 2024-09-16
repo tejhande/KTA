@@ -1,8 +1,9 @@
 package a_Arrays;
 //Indexing starts from 0 in Arrays and Strings both
-public class Arrays {
+public class Arrays_1 {
 
 	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
 //		Declare Array
 		int[] arr;
 		
@@ -27,7 +28,7 @@ public class Arrays {
 		for(int i=0; i<10; i++) {
 			System.out.print(arr1[i]);				
 		}
-		
+
 	}
 
 }

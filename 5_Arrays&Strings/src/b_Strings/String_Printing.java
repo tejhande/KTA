@@ -10,5 +10,4 @@ public class String_Printing {
 			System.out.println(i+1 +" "+ItCompanies[i]+" ");			
 		}
 	}
-
 }
