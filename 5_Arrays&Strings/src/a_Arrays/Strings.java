@@ -1,4 +1,4 @@
-package b_Strings;
+package a_Arrays;
 // Indexing starts from 0 in Strings And Arrays both
 public class Strings {
 
