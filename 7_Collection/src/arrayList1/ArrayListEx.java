@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayListEx {
 
-	@SuppressWarnings("rawtypes") // removes all warnings caused by raw types
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		ArrayList<Comparable> al = new ArrayList<Comparable>();
 		al.add("Aman");

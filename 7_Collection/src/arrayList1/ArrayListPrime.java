@@ -7,7 +7,7 @@ public class ArrayListPrime {
 	public static void main(String[] args) {
 		ArrayList<Integer> al = new ArrayList<Integer>();
 
-		for (int number = 0; number < 10; number++) { // Looping from numbers from 0 to 100
+		for (int number = 0; number < 100; number++) { // Looping from numbers from 0 to 100
 
 			boolean isPrime = true; // setting isPrime to true as default
 
