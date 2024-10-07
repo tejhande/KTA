@@ -18,7 +18,7 @@ public class IntersectionSets {
 		System.out.print("Enter the number of elements in each set: ");
 		int n = myScanner.nextInt(); // Get the number of elements for each set
 
-		// Input elements for the three sets
+		// Input elements
 		for (int i = 0; i < n; i++) {
 			System.out.print("Add to set 1 at index " + i + ": ");
 			al1.add(myScanner.nextInt());
