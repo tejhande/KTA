@@ -1,27 +1,70 @@
 package practice;
 
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
-public class IteratorExample {
+public class PriceErrorChecker {
 
-	public static void main(String[] args) {
-		// Create ArrayList and add integers 1-10
-		ArrayList<Integer> al = new ArrayList<>();
-		for (int i = 1; i <= 10; i++) {
-			al.add(i);
+	// Method to count price errors between the correct prices and sold prices
+	public static int countPriceErrors(String[] products, double[] productPrices, String[] productSold,
+			double[] soldPrice) {
+		Map<String, Double> productPriceMap = new HashMap<>();
+
+		// Fill the map with products and their correct prices
+		for (int i = 0; i < products.length; i++) {
+			productPriceMap.put(products[i], productPrices[i]);
 		}
-		System.out.println("Original List: " + al);
 
-		// Iterator for the list
-		Iterator<Integer> itr = al.iterator();
-		while (itr.hasNext()) {
-			Integer no = itr.next();
-			if (no % 2 != 0) {
-				itr.remove(); // Remove odd numbers
+		int errorCount = 0;
+
+		// Compare each sold product's price with the correct price
+		for (int i = 0; i < productSold.length; i++) {
+			String soldProduct = productSold[i];
+
+			// Ensure the sold product exists in the map to avoid exceptions
+			if (productPriceMap.containsKey(soldProduct)) {
+				double correctPrice = productPriceMap.get(soldProduct);
+				if (correctPrice != soldPrice[i]) {
+					errorCount++; // Increment error count if there's a mismatch
+				}
 			}
 		}
 
-		System.out.println("Even numbers: " + al); // Print only even numbers
+		return errorCount;
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		// Input for products and their correct prices
+		int n = sc.nextInt(); // Number of products
+		String[] products = new String[n];
+		double[] productPrices = new double[n];
+
+		for (int i = 0; i < n; i++) {
+			products[i] = sc.next(); // Read product name
+		}
+
+		for (int i = 0; i < n; i++) {
+			productPrices[i] = sc.nextDouble(); // Read product price
+		}
+
+		// Input for sold products and their sold prices
+		int m = sc.nextInt(); // Number of sold products
+		String[] productSold = new String[m];
+		double[] soldPrice = new double[m];
+
+		for (int i = 0; i < m; i++) {
+			productSold[i] = sc.next(); // Read sold product name
+		}
+
+		for (int i = 0; i < m; i++) {
+			soldPrice[i] = sc.nextDouble(); // Read sold product price
+		}
+
+		// Calculate the number of pricing errors
+		int errors = countPriceErrors(products, productPrices, productSold, soldPrice);
+		System.out.println(errors); // Output the result
 	}
 }
