@@ -1,22 +1,42 @@
 package a_Arrays;
+import java.util.Scanner;
 
-public class FamousLocations {
-    public static void main(String[] args) {
-        String[] locations = {"Eiffel Tower", "Great Wall of China", "Taj Mahal", "Statue of Liberty", "Machu Picchu"};
-        String searchLocation = "Taj Mahal";
-        boolean found = false;
-        
-        for (String location : locations) {
-            if (location.equals(searchLocation)) {
-                found = true;
-                break;
+public class BinarySearchInsert {
+
+    public static int searchInsert(int[] nums, int target) {
+        int low = 0, high = nums.length - 1;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2; // Prevent overflow
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] < target) {
+                low = mid + 1; // Move to the right half
+            } else {
+                high = mid - 1; // Move to the left half
             }
         }
-        
-        if (found) {
-            System.out.println(searchLocation + " is found in the array.");
-        } else {
-            System.out.println(searchLocation + " is not found in the array.");
+        return low; // Position to insert the target
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input the size of the array
+        int n = scanner.nextInt();
+
+        // Input the sorted array
+        int[] nums = new int[n];
+        for (int i = 0; i < n; i++) {
+            nums[i] = scanner.nextInt();
         }
+
+        // Input the target value
+        int target = scanner.nextInt();
+
+        // Perform binary search and output the result
+        System.out.println(searchInsert(nums, target));
+
+        scanner.close();
     }
 }
